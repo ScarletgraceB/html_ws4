@@ -117,10 +117,27 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
+.title-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color:aliceblue;
+    text-align: center;
+    padding:15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 /* section 5 media items */
+
 
 .section-five {
     background-color: goldenrod;
