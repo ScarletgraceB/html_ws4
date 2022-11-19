@@ -160,5 +160,9 @@ iframe {
 .media-container .mediacontent{
     flex:1;
     padding: 10px;
+   
 }
 
+.media-flipped{
+    flex-direction: row-reverse;
+}
